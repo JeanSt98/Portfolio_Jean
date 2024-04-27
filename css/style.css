@@ -374,7 +374,18 @@ footer img{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+@media (min-width: 768px){
+    
+#diploma{
+    text-align: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0%;
+}
 
+}
 
 
 
