@@ -7,7 +7,7 @@
     --blanco: #ffffff;
     --negro: #212121;
     --primario: #ffc107;
-    --secundario: #0097a7;
+    --secundario: #0096a7;
     --gris: #757575;
 
     --fuente-principal: 3.8rem;
@@ -104,6 +104,7 @@ h3 {
 .menu {
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
 }
 
 .menu a {
@@ -120,6 +121,11 @@ h3 {
 
 .nav-bg {
     background-color: var(--secundario);
+}
+
+.html2, .nav-bh{
+        background-color:#00000082;
+   
 }
 
 
@@ -429,7 +435,13 @@ font-size: 16px;
 		text-align: left;
     }
 }
-
+.html3{
+    scroll-snap-type: y mandatory;
+}
+.diploma, .linkedin{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
 
 
 @media (min-width: 768px){
