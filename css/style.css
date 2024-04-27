@@ -282,8 +282,7 @@ h3 {
     box-sizing: border-box;
 }
 .slider{
-    width: 50%;
-    height: 50%;
+    width: 40%;
     overflow: hidden;
 }
 .slider ul{
@@ -389,6 +388,9 @@ footer img{
 #jean{
     float: right;
 }
+}
+#svg{
+    margin-right: 20%;
 }
 }
 
