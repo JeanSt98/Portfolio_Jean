@@ -324,6 +324,7 @@ body .hobby{
 .content{
     width: 30rem;
     margin: auto;
+    border-radius: 2rem;
 }
 }
 
