@@ -321,9 +321,9 @@ body .hobby{
 
     
 }
-@media (min-width: 768px){
+@media (min-width: 430px){
 .content{
-    width: 50rem;
+    width: 30rem;
     margin: auto;
 }
 }
