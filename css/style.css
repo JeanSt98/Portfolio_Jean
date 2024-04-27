@@ -375,17 +375,63 @@ footer img{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
-@media (min-width: 480px){
-    
-#diploma{
-    text-align: center;
-    align-items: center;
-    margin-top: 0%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 0%;
+body{
+	margin:0;
+	padding:20px;
+	font-family: sans-serif;
 }
+
+*{
+	box-sizing: border-box;
 }
+.diploma{
+width: 100%;
+border-collapse: collapse;
+}
+.diploma td,.diploma th{
+padding: 12px 15px;
+border: 1px solid #ddd;
+text-align: center;
+font-size: 16px;
+}
+.diploma th{
+    background-color: darkblue;
+    color: #ffffff;
+}
+.diploma tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+@media (max-width: 768px){
+    .diploma thead{
+        display: none;
+    }
+    .diploma, .diploma tbody, .diploma tr, .diploma td{
+        display: block;
+        width: 100%;
+    }
+    .diploma tr{
+        margin-bottom: 10px;
+    }
+    .diploma td {
+		text-align: right;
+		padding-right: 19%;
+		position: relative;
+
+    }
+    .diploma td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+    }
+}
+
+
+
 @media (min-width: 768px){
     
 #jean{
