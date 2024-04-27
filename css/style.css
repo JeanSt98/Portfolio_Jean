@@ -384,7 +384,12 @@ footer img{
     margin-right: 25%;
     margin-bottom: 0%;
 }
-
+@media (min-width: 768px){
+    
+#jean{
+    float: right;
+}
+}
 }
 
 
