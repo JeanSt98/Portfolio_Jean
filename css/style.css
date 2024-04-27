@@ -375,7 +375,7 @@ footer img{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
-@media (min-width: 768px){
+@media (min-width: 480px){
     
 #diploma{
     text-align: center;
@@ -396,6 +396,7 @@ footer img{
 #svg{
     margin:auto
 }
+
 
 
 
