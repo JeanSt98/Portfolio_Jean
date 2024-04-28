@@ -165,7 +165,7 @@ h3 {
 
 
 .hero {
-    background-image: url(../img/tics2.jpg);
+    background-image: url(../img/developer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 41rem;
@@ -381,7 +381,7 @@ footer img{
 .html2, h2{
     color: var(--blanco);
 }
-.predator{
+.development{
  background-image: url(../img/php.jpg);
  background-repeat: no-repeat;
  font-size: 20px;
@@ -389,7 +389,7 @@ footer img{
 }
 .information,
 .slider,
-.predator{
+.development{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
