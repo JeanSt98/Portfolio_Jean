@@ -344,10 +344,7 @@ body .hobby{
 .html,footer{
     text-align: center;
 }
-.html2 ,ft{
-    margin-right: -4.1%;
-    margin-left: -4.1%;
-}
+
 .ft{
     text-align: center;
     background-image:url(../img/php.jpg);
@@ -390,7 +387,7 @@ footer img{
 }
 body{
 	margin:0;
-	padding:20px;
+	padding:7px;
 	font-family: sans-serif;
 }
 
