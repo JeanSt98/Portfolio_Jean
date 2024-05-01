@@ -436,6 +436,9 @@ footer img {
 h2 {
     color: var(--blanco);
 }
+.html2, description{
+    margin-left: 1%;
+}
 
 .number{
    text-align: center;
