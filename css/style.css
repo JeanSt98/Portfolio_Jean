@@ -533,6 +533,15 @@ body {
     #jean {
         float: right;
         margin-bottom: 4rem;
+        margin-left: -25%;
+        width: 29rem;
+    }
+    #svg {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .information{
+        text-align: center;
     }
 }
 
