@@ -404,7 +404,7 @@ footer {
     text-align: center;
 }
 
-.ft {
+/*.ft {
     text-align: center;
     background-image: url(../img/php.jpg);
     background-repeat: no-repeat;
@@ -416,7 +416,7 @@ footer {
     margin-top: -2%;
 
 
-}
+}*/
 
 footer img {
     width: 300px;
@@ -437,13 +437,13 @@ h2 {
     color: var(--blanco);
 }
 
-.number{
-   text-align: center;
+.number {
+    text-align: center;
 }
 
 .development {
     background-image: url(../img/php.jpg);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     font-size: 20px;
     background-size: 250rem;
 }
@@ -536,11 +536,13 @@ body {
         margin-left: -25%;
         width: 29rem;
     }
+
     #svg {
         margin: 0 auto;
         text-align: center;
     }
-    .information{
+
+    .information {
         text-align: center;
     }
 }
