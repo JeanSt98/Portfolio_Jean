@@ -531,9 +531,7 @@ body {
 @media (min-width: 768px) {
 
     #jean {
-        float: right;
-        margin-bottom: 4rem;
-        margin-left: -25%;
+        margin: 0 auto;
         width: 29rem;
     }
 
