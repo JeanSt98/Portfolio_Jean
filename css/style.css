@@ -9,6 +9,7 @@
     --primario: #ffc107;
     --secundario: #0096a7;
     --gris: #757575;
+    --negro_oscuro:#000000; 
 
     --fuente-principal: 3.8rem;
 }
@@ -90,7 +91,7 @@ h2 {
 
 @media (max-width: 768px) {
     .webdev {
-        margin-bottom: 6.8%;
+        margin-bottom: 6.1%;
     }
 }
 
@@ -138,7 +139,7 @@ h3 {
 }
 
 .nav-bg {
-    background-color: var(--secundario);
+    background-color: var(--negro_oscuro);
 }
 
 .html2,
@@ -473,8 +474,8 @@ body {
 }
 
 .diploma th {
-    background-color: darkblue;
-    color: #ffffff;
+    background-color: var(--negro_oscuro);
+    color: var(--blanco);
 }
 
 .diploma tbody tr:nth-child(even) {
