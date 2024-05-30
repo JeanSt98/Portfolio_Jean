@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta Labels -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Jean's Portfolio Design and Mobile and Web Development">
     <title>Web Designer</title>
     <link rel="icon" href="img/Icons/favicon1.png">
+    <!-- Prefetch -->
+    <link rel="prefetch" href="aboutMe.html">
+    <!-- Preload -->
     <link rel="preload" href="css/style.css" as="style" />
     <link rel="preload" href="css/normalize.css" as="style" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -156,37 +161,35 @@
       </section>
       </div>
 
-<!--
-    <section>
+    <!-- <section>
       <h3>Contact</h3>
-      <form class="formulario">
+      <form class="formulario" action="php/register.php" method="post">
         <fieldset>
-          <legend>Contact us fill out those fields</legend>
+          <legend>Please contact me by filling out these fields</legend>
           <div class="contenedor_campos">
           <div class="campos">
-            <label>Name</label>
-            <input class="input_type" type="text" placeholder="Your name" />
+            <label for="name">Name</label>
+            <input class="input_type" type="text" id="name" name="name" placeholder="Your name" required/>
           </div>
           <div class="campos">
-            <label>Number</label>
-            <input class="input_type" type="tel" placeholder="Phone number" />
+            <label for="number">Phone Number</label>
+            <input class="input_type" type="tel" placeholder="Phone number" id="number" name="number" required />
           </div>
           <div class="campos">
-            <label>Email</label>
-            <input class="input_type" type="email" placeholder="Your email" />
+            <label for="email">Email</label>
+            <input id="email" class="input_type" type="email" placeholder="Your email" name="email" required />
           </div>
           <div class="campos">
-            <label>Message</label>
-            <textarea class="input_type"></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="input_type" required></textarea>
           </div>
-        </div>Contenedor de los campos
+        </div> Contenedor de los campos 
           <br><div class="alinear_derecha flex">
             <input class="button w-100" type="submit" value="Send" />
           </div>
         </fieldset>
       </form>
-      <a href="contacto.html"></a>
-    </section>-->
+    </section> -->
   </main>
 
     <footer class="steven">

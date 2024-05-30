@@ -100,7 +100,7 @@ h3 {
     font-weight: 400;
     font-style: normal;
     font-size: 3.3rem;
-    color: cornflowerblue
+    color: cornflowerblue;
 }
 
 h1,
@@ -256,7 +256,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--primario);
+    color: var(--secundario);
 }
 
 @media (min-width: 768px) {
@@ -293,7 +293,10 @@ h3 {
     border: none;
     padding: 1.5rem;
     border-radius: .5rem;
+
+    
 }
+
 
 @media (min-width: 768px) {
     .w-100 {
