@@ -109,6 +109,10 @@ h3 {
     text-align: center;
 }
 
+.center{
+    text-align: center;
+}
+
 .titulo span {
     font-family: "Jersey 20 Charted", sans-serif;
     font-weight: 400;
@@ -148,6 +152,7 @@ h3 {
     margin-top: -0.22%;
 
 }
+
 
 .html3,
 .nav-bg {
