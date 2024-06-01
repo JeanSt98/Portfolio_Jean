@@ -108,6 +108,15 @@ h2,
 h3 {
     text-align: center;
 }
+#whatsapp {
+    position: fixed;
+    bottom: 0px;
+    right:20px;
+ }
+ svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+ }
 
 .center{
     text-align: center;
