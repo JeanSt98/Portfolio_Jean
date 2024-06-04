@@ -49,7 +49,7 @@ body {
     background-color: var(--blanco);
     color: var(--negro);
     padding: 1rem 3rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: 2rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -58,6 +58,7 @@ body {
     width: 70%;
     text-align: center;
     border: none;
+    margin: auto 45%;
 }
 
 .button:hover {
@@ -93,6 +94,22 @@ h2 {
 @media (max-width: 768px) {
     .webdev {
         margin-bottom: 6.1%;
+    }
+    .button {
+        font-family: "Roboto", sans-serif;
+        background-color: var(--blanco);
+        color: var(--negro);
+        padding: 1rem 3rem;
+        /* margin-top: 1rem; */
+        font-size: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: .5rem;
+        width: 70%;
+        text-align: center;
+        border: none;
+        margin: auto;
     }
 }
 
