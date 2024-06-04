@@ -10,6 +10,7 @@
     --secundario: #0096a7;
     --gris: #757575;
     --negro_oscuro:#000000; 
+    --azul: rgb(24, 83, 185);
 
     --fuente-principal: 3.8rem;
 }
@@ -45,8 +46,8 @@ body {
 
 .button {
     font-family: "Roboto", sans-serif;
-    background-color: var(--secundario);
-    color: var(--blanco);
+    background-color: var(--blanco);
+    color: var(--negro);
     padding: 1rem 3rem;
     margin-top: 1rem;
     font-size: 2rem;
@@ -183,12 +184,12 @@ h3 {
 
 .menu a:hover {
     background-color: var(--primario);
-    color: cornflowerblue;
+    color: var(--azul);
 }
 
 .button:hover {
     background-color: var(--primario);
-    color: cornflowerblue;
+    color: var(--azul);
 }
 
 @media (min-width: 768px) {
@@ -346,6 +347,7 @@ h3 {
     width: 70%;
     height: 70%;
     overflow: hidden;
+    margin: auto;
 }
 
 .slider ul {
@@ -554,7 +556,7 @@ body {
 
     #jean {
         margin: 0 auto;
-        width: 29rem;
+        width: auto;
     }
 
     #svg {
