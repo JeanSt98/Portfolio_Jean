@@ -539,6 +539,9 @@ body {
         font-weight: bold;
         text-align: left;
     }
+    .image{
+        margin: 0 9%;
+    }
 }
 
 .html3 {
