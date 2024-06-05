@@ -111,7 +111,25 @@ h2 {
         width: 70%;
         text-align: center;
         border: none;
-        margin: auto 42%;
+        margin: auto 43.1%;
+    }
+}
+@media (min-width: 900px){
+    .button {
+        font-family: "Roboto", sans-serif;
+        background-color: var(--blanco);
+        color: var(--negro);
+        padding: 1rem 3rem;
+        /* margin-top: 1rem; */
+        font-size: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: .5rem;
+        width: 70%;
+        text-align: center;
+        border: none;
+        margin: auto 42.5%;
     }
 }
 
