@@ -58,7 +58,7 @@ body {
     width: 70%;
     text-align: center;
     border: none;
-    margin: auto 45%;
+    margin: auto;
 }
 
 .button:hover {
@@ -95,6 +95,8 @@ h2 {
     .webdev {
         margin-bottom: 6.1%;
     }
+}
+@media (min-width: 768px){
     .button {
         font-family: "Roboto", sans-serif;
         background-color: var(--blanco);
@@ -109,7 +111,7 @@ h2 {
         width: 70%;
         text-align: center;
         border: none;
-        margin: auto;
+        margin: auto 42%;
     }
 }
 
