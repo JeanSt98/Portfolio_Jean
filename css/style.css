@@ -132,6 +132,19 @@ h3 {
     bottom: 0px;
     right:20px;
  }
+ .up{
+    position: fixed;
+    bottom: 10rem;
+    right:1.5rem;
+    padding: 1rem;
+    background: var(--negro_oscuro);
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+ }
+ 
+
  svg {
     width: 80px;
     filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
