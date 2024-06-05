@@ -132,18 +132,17 @@ h3 {
     bottom: 0px;
     right:20px;
  }
+
  .up{
     position: fixed;
-    bottom: 10rem;
+    bottom: 7rem;
     right:1.5rem;
-    padding: 1rem;
-    background: var(--negro_oscuro);
+    padding: 0.5rem;
+    background: #00000082;
     font-size: 2rem;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
-    position: fixed;
  }
- 
 
  svg {
     width: 80px;
