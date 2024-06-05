@@ -506,6 +506,10 @@ body {
     border-collapse: collapse;
 }
 
+#skills__tittle{
+    display: none;
+}
+
 .diploma td,
 .diploma th {
     padding: 12px 15px;
@@ -526,6 +530,17 @@ body {
 @media (max-width: 768px) {
     .diploma thead {
         display: none;
+    }
+
+    #skills{
+        text-align: left;
+    }
+    
+    #skills__tittle{
+        display: ruby-text;
+        font-weight: bold;
+        font-size: large;
+        
     }
 
     .diploma,
@@ -559,6 +574,14 @@ body {
     }
     .image{
         margin: 0 9%;
+    }
+
+    
+    #skills{
+        text-align: center;
+        margin: auto;
+        text-align: left;
+        
     }
 }
 
