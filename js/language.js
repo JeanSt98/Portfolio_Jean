@@ -1,3 +1,7 @@
-require('dontev').config();
-const api_key= process.env.LANGUAGE_APP_API_KEY;
-console.log(api_key);
+require('dotenv').config();
+
+document.addEventListener("DOMContentLoaded", function (e) {
+  ConveyThis_Initializer.init({
+    api_key: process.env.API_KEY,
+  });
+});
