@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://agenda17d06.site/sitemap.xml
