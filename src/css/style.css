@@ -58,7 +58,7 @@ body {
     width: 70%;
     text-align: center;
     border: none;
-    margin-left: 1.5% ;
+    margin: 0% 20% ;
 }
 
 .button:hover {
@@ -111,6 +111,7 @@ h2 {
         width: 70%;
         text-align: center;
         border: none;
+        margin: 1.5% ;
     }
 }
 
